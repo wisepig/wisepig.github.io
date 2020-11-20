@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    background-color: #f6f6f6;
+}
+
+.container {
+    display: flex;
+    margin: 80px;
+    flex-wrap: wrap;
+}
+
+.container > div {
+    margin: 40px;
+    border-radius: 8px;
+    border: 2px solid #f0f0f0;
+    background-color: e0f0f0;
+}
+
+.container > div:hover {
+    background-color: #d0f0f0;
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 240px;
+    text-decoration: none;
+    font-size: 40px;
+    color: #007bff;
+}
+
+img {
+    width: 96px;
+    height: 96px;
+}

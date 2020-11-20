@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    background-color: #f6f6f6;
+}
+
+.control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#control-calc {
+    background-color: #4cb0f9;
+    color: white;
+    text-decoration: none;
+    outline: none;
+    border-radius: 4px;
+    padding: 8px;
+    margin-left: 60px;
+}
+
+#dimension-selector {
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+}
+
+.sudoku {
+    display: flex;
+    justify-content: center;
+}
+
+.sudoku-board {
+    /* width: 600px; */
+    /* height: 600px; */
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sudoku-board canvas {
+    display: none;
+    border: 1px solid #9999a3;
+}
+
+#color-selector .sselector-option {
+    font-size: 22px;
+}
+
+#color-selector .sselector-option:nth-child(1) {
+    color: #ffa7a7;
+}
+
+#color-selector .sselector-option:nth-child(1).sselector-option-selected {
+    color: white;
+    background-color: #ffa7a7;
+}
+
+#color-selector .sselector-option:nth-child(2) {
+    color: #ffd0a7;
+}
+
+#color-selector .sselector-option:nth-child(2).sselector-option-selected {
+    color: white;
+    background-color: #ffd0a7;
+}
+
+#color-selector .sselector-option:nth-child(3) {
+    color: #fffca7;
+}
+
+#color-selector .sselector-option:nth-child(3).sselector-option-selected {
+    color: white;
+    background-color: #fffca7;
+}
+
+#color-selector .sselector-option:nth-child(4) {
+    color: #c1ffa7;
+}
+
+#color-selector .sselector-option:nth-child(4).sselector-option-selected {
+    color: white;
+    background-color: #c1ffa7;
+}
+
+#color-selector .sselector-option:nth-child(5) {
+    color: #a7ffda;
+}
+
+#color-selector .sselector-option:nth-child(5).sselector-option-selected {
+    color: white;
+    background-color: #a7ffda;
+}
+
+#color-selector .sselector-option:nth-child(6) {
+    color: #a7dfff;
+}
+
+#color-selector .sselector-option:nth-child(6).sselector-option-selected {
+    color: white;
+    background-color: #a7dfff;
+}
+
+#color-selector .sselector-option:nth-child(7) {
+    color: #a8a7ff;
+}
+
+#color-selector .sselector-option:nth-child(7).sselector-option-selected {
+    color: white;
+    background-color: #a8a7ff;
+}
+
+#color-selector .sselector-option:nth-child(8) {
+    color: #e1a7ff;
+}
+
+#color-selector .sselector-option:nth-child(8).sselector-option-selected {
+    color: white;
+    background-color: #e1a7ff;
+}
+
+#color-selector .sselector-option:nth-child(9) {
+    color: #ffa7e8;
+}
+
+#color-selector .sselector-option:nth-child(9).sselector-option-selected {
+    color: white;
+    background-color: #ffa7e8;
+}

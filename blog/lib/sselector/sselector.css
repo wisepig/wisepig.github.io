@@ -1,0 +1,32 @@
+/**
+ * DOM:
+ * <div class="sselector">
+ *   <div class="sselector-option" value="1">Option1</div>
+ *   <div class="sselector-option" value="2">Option2</div>
+ * </div>
+ */
+
+ .sselector {
+     display: flex;
+     flex-wrap: nowrap;
+     justify-content: space-around;
+ }
+
+ .sselector-column {
+     flex-direction: column;
+ }
+
+ .sselector-option {
+     width: 1rem;
+     height: 1.8rem;
+     padding: .5rem 1rem;
+     border-radius: .25rem;
+     font-size: 20px;
+     cursor: pointer;
+     color: #007bff;
+ }
+
+ .sselector-option.sselector-option-selected {
+     color: #fff;
+     background-color: #007bff;
+ }
